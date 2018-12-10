@@ -1,4 +1,4 @@
-# occ-sse-stress-tester for [Oracle Commerce Cloud](https://cloud.oracle.com/en_US/commerce-cloud "Oracle Commerce Cloud")
+# occ-api-stress-tester for [Oracle Commerce Cloud](https://cloud.oracle.com/en_US/commerce-cloud "Oracle Commerce Cloud")
 
 Tool to help stress and load test your SSE endpoint given your desired payload.   
 This helper will also generate an access token request the api endpoints as defined in tester.yml
