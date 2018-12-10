@@ -1,0 +1,22 @@
+{
+  "name": "occ-sse-stress-tester",
+  "version": "1.0.0",
+  "description": "Tool to help stress test your sse endpoint given you inputted payload",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leedium/occ-sse-stress-tester.git"
+  },
+  "author": "LEEDIUM",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leedium/occ-sse-stress-tester/issues"
+  },
+  "homepage": "https://github.com/leedium/occ-sse-stress-tester#readme",
+  "dependencies": {
+    "axios": "^0.18.0"
+  }
+}
