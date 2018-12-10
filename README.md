@@ -1,7 +1,7 @@
-# occ-sse-stress-tester for [Oracle Commerce Cloud](https://cloud.oracle.com/en_US/commerce-cloud "Oracle Commerce Cloud")
+# occ-api-stress-tester for [Oracle Commerce Cloud](https://cloud.oracle.com/en_US/commerce-cloud "Oracle Commerce Cloud")
 
 Tool to help stress and load test your SSE endpoint
-This helper will generate an authenticated request to the endpoint which you define.
+This helper will generate an authenticated request to an endpoint which you define.
 
 ## Dependencies
 - Uses [Artillery](https://artillery.io/docs/getting-started/) which is an incredible stress/load testing suite.
@@ -11,7 +11,6 @@ Kudos to the [team](https://github.com/artilleryio/artillery) that built this.
 
 * Please refer to the Artillery [documentation](https://artillery.io/docs/http-reference/ "Artillery HTTP Reference") for HTTP specific instructions.   
 I incorporated the Javascript implementation for clearer understanding, and YML avoidance (lol)
-
 
 ## Instructions
 
