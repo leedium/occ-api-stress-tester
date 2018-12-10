@@ -23,8 +23,8 @@ const payload = require('./testerPayload.json');
 const cards = [
     ["visa", "4111111111111111"],
     ["visa", "4000000000000002"],
-    ["mc", "5100080000000000 "],
-    ["mc", "5200000000000007 "],
+    ["mc", "5100080000000000"],
+    ["mc", "5200000000000007"],
 ];
 
 async function generateToken (context, events, done) {
