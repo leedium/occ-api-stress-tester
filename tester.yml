@@ -1,0 +1,17 @@
+config:
+  # Base API endpoint for your sse
+  target: "https://ccadmin-XXX-YYYY.oracleoutsourcing.com/ccstorex/custom/v1/{SSE_BASE}"
+  phases:
+  - duration: 300
+    arrivalRate: 5
+  processor: "./tester.js"
+
+scenarios:
+- flow:
+  # get the Auth token here
+  - function: "generateToken"
+  - post:
+      url: "/payment"
+      beforeRequest: setHeadersAndBody
+      afterResponse: showBody
+
