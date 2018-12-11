@@ -7,7 +7,7 @@ This helper will generate an authenticated request to an endpoint which you defi
 - Uses [Artillery](https://artillery.io/docs/getting-started/) which is an incredible stress/load testing suite.
 Kudos to the [team](https://github.com/artilleryio/artillery) that built this.
 
-- Uses non global instance of [occ-token-generator](https://github.com/leedium/occ-token-generator "OCC Token Generator"") (comes packaged)
+- Uses non global instance of [occ-token-generator](https://github.com/leedium/occ-token-generator "OCC Token Generator") (comes packaged)
 
 * Please refer to the Artillery [documentation](https://artillery.io/docs/http-reference/ "Artillery HTTP Reference") for HTTP specific instructions.   
 I incorporated the Javascript implementation for clearer understanding, and YML avoidance (lol)
