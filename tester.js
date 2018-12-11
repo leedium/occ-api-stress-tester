@@ -50,7 +50,6 @@ function setHeadersAndBody (requestParams, context, ee, next) {
     payload.cardDetails.number = card[1];
     requestParams.json = payload;
     requestParams.method = "POST";
-    requestParams.body = "hello";
     next();
 }
 
